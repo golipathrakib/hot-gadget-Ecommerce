@@ -1,0 +1,8 @@
+.nav_control {
+    margin-top: 10px;
+}
+ul.navbar-nav.menu_items li a {
+    font-size: 18px;
+    color: #888686;
+    font-weight: 500;
+}
