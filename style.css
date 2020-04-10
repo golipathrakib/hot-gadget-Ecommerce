@@ -1,3 +1,6 @@
+.container{
+    margin-top: 20px;
+}
 .nav_control {
     margin-top: 10px;
 }
@@ -5,4 +8,42 @@ ul.navbar-nav.menu_items li a {
     font-size: 18px;
     color: #888686;
     font-weight: 500;
+}
+.carousel-text {
+    padding-left: 35px;
+}
+.img-resizer img {
+    margin: 0px 10px;
+    height: 500px;
+    width: 100%;
+}
+.carousel-indicators.indicator li {
+    background-color:orange;
+    height: 6px;
+    width: 50px;
+    border-radius: 3px;
+}
+span.carousel-control-prev-icon, span.carousel-control-next-icon {
+    filter: invert(1);
+}
+.card-footer a {
+    background-color: #000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 85px;
+}
+
+.categories {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.card-footer.footer {
+    background-color: white;
+    border-top: none;
+}
+.card {
+    box-shadow: 0px 0px 10px #b5b5b587;
 }

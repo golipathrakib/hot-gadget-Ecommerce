@@ -36,13 +36,15 @@
     </section>
     <section class="carousel">
         <div class="container">
-            <div class="row bg-warning">
+            <div class="row">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
+                    <div class="carousel_seperator">
+                        <ol class="carousel-indicators indicator">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
@@ -50,12 +52,14 @@
                                     <div class="carousel-text ">
                                         <h1>Mackbook Pro</h1>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab ut totam explicabo minima! Itaque esse ea, dolorum optio ullam nulla?</p>
-                                        <button><a href="#">Buy Now</a></button>
+                                        <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="carousel-img ">
-                                        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                                        <div class="img-resizer">
+                                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -66,11 +70,13 @@
                                     <div class="carousel-text ">
                                         <h1>Mackbook Pro</h1>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab ut totam explicabo minima! Itaque esse ea, dolorum optio ullam nulla?</p>
-                                        <button><a href="#">Buy Now</a></button>
+                                        <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="col-md-7 carousel-img">
-                                    <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                                    <div class="img-resizer">
+                                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -80,11 +86,13 @@
                                     <div class="carousel-text">
                                         <h1>Mackbook Pro</h1>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab ut totam explicabo minima! Itaque esse ea, dolorum optio ullam nulla?</p>
-                                        <button><a href="#">Buy Now</a></button>
+                                        <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="col-md-7 carousel-img">
-                                    <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                                    <div class="img-resizer">
+                                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,6 +105,97 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="smartphone_section">
+        <div class="container">
+            <div class="row d-flex justify-content-between categories">
+                <div><h1>Smartphone</h1></div>
+                <div><a href="#">See all</a></div>
+            </div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">J5 Galaxy Prime Phone</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <h2 class="price">$699</h2>
+                      </div>
+                      <div class="card-footer footer">
+                        <small class="text-muted"><a href="#">BUY NOW >></a></small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <h2 class="price">$799</h2>
+                      </div>
+                      <div class="card-footer footer">
+                        <small class="text-muted"><a href="#">BUY NOW >></a></small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">iPhone 11 Pro</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <h2 class="price">$999</h2>
+                      </div>
+                      <div class="card-footer footer">
+                        <small class="text-muted"><a href="#">BUY NOW >></a></small>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="smartphone_section">
+        <div class="container">
+            <div class="row d-flex justify-content-between categories">
+                <div><h1>Laptop</h1></div>
+                <div><a href="#">See all</a></div>
+            </div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Asus VivoBook</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <h2 class="price">$999</h2>
+                      </div>
+                      <div class="card-footer footer">
+                        <small class="text-muted"><a href="#">BUY NOW >></a></small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <h2 class="price">$2799</h2>
+                      </div>
+                      <div class="card-footer footer">
+                        <small class="text-muted"><a href="#">BUY NOW >></a></small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <h2 class="price">$999</h2>
+                      </div>
+                      <div class="card-footer footer">
+                        <small class="text-muted"><a href="#">BUY NOW >></a></small>
+                      </div>
+                    </div>
                   </div>
             </div>
         </div>
