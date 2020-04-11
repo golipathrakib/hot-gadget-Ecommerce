@@ -49,6 +49,8 @@ span.carousel-control-prev-icon, span.carousel-control-next-icon {
 }
 .col-md-12.cate_section {
     position: relative;
+    margin-bottom: 130px;
+    margin-top: 57px;
 }
 
 .cate_title {
@@ -67,3 +69,13 @@ span.carousel-control-prev-icon, span.carousel-control-next-icon {
     right: 30px;
     border-radius: 16px;
 }
+.col-md-6.pale-img img {
+    height: 400px;
+}
+.justify-img img {
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px #efefef;
+    margin-left: 65px;
+}
+
+.self-img img {box-shadow: 0px 5px 10px #efefef;padding: 20px 30px;}
