@@ -47,3 +47,23 @@ span.carousel-control-prev-icon, span.carousel-control-next-icon {
 .card {
     box-shadow: 0px 0px 10px #b5b5b587;
 }
+.col-md-12.cate_section {
+    position: relative;
+}
+
+.cate_title {
+    position: absolute;
+    left: 500px;
+}
+
+.cate_title::after {
+    content: "";
+    background-color: orange;
+    width: 135px;
+    height: 5px;
+    z-index: -1;
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    border-radius: 16px;
+}
